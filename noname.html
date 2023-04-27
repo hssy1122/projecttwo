@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>소확복 스카프 메인 페이지</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+	<style>
+		html{scroll-behavior: smooth; font-family: 'Noto Serif KR', serif;}
+		body, header, html,section {margin:0 0;}
+		li{width: 189px; height: 50px; color:gray; font-size:1em; font-weight: 300; text-align: center; display: inline-block; margin-top: 30px; position: sticky; top: 0; z-index: 20; background-color: #F2F1EF; margin: auto;}
+		nav{display: block; height:60px;  position: sticky; top: 0; z-index: 20; background-color: #F2F1EF; margin:auto; word-break: keep-all; padding-top: 25px;}
+		ul{margin:auto; width: 1000px; padding: 0px 250px;}
+		a{text-decoration: none; color:black;}
+		a:hover{background:none; color:black; display:block; font-weight: 700; transition: all 0.2s; text-decoration: none;}
+		b{color:#A32020;}
+		.wrap{width: 1000px; margin:auto;}
+		.bg-ibo{background-color: #F2F1EF;}
+		.bg-black{background-color: black;}
+		.color-white{color: white;}
+		.color-black{color: black;}
+		.color-ibo{color:#E6E5E2;}
+		.flex {display: flex;}
+		.col-1{height: 150px; width: 1000px; margin:auto; margin-top: 50px;}
+		.col-2{height: 1000px; width:900px; margin: auto; margin-top: -1000px; margin-left: 500px;}
+		.col-3{height: 800px; margin: auto; margin-top: -700px;}
+		.col-4{height: 1180px; margin:auto;}
+		.col-5{height: 180px; margin-top:-400px; min-width: 1200px;}
+		.col-6{height: 300px; width: 500px; margin: auto; padding-top: 200px; display: inline-block; padding-bottom: 100px;}
+		.col-7{height: 1850px;  margin:auto;}
+		.col-8{height: 1350px;  padding-top: 500px; margin:auto;}
+		.col-9{height: 2000px;}
+		.col-10{height: 1200px; padding-top: 950px;}
+		.col-11{height: 200px; width: 1000px; margin: auto; margin-top: -650px;}
+		.col-12{height: 150px; width: 1000px; margin-top: 100px; background-color: black;}
+		.col-13{height: 326px; width: 400px; margin: 0px 0px;}
+		.col-14{height: 400px; width: 1000px; margin-top: -30px;}
+		.col-15{height: 900px; width: 1000px; padding-top: 400px; margin-top: auto; margin-left: 300px;}
+		.col-16{height: 100px; width: 1000px; margin:auto; margin-top: -80px;}
+		.col-17{height: 100px; width: 1000px; margin:auto; margin-top: 100px;}
+		.col-18{height: 800px; width: 1000px; margin: auto;}
+		.col-19{height: 300px; width: auto; margin-top: -200px; min-width: 1600px;}
+		.col-20{height:250px; width: 1000px; margin: auto; margin-top: 220px;}
+		.col-21{height:100px; width: 500px; margin-top: 350px; background-color: black; margin:auto;}
+		.col-22{height:450px; width: 400px; padding-left: 900px;}
+		.col-23{height:200px; width: 200px; margin-top: -400px; margin-left: 760px;}
+			.col-24{height:100px; width: 800px; margin-top: -600px; margin-left: 0px;}
+		.col-25{height:800px; width: 650px; margin-left: 1000px; margin-top:-100px;}
+		.col-26{height: 1000px;}
+		.col-27{height:800px;}
+		.col-28{height:1080px;}
+		.col-29{height:500px; padding-top: 400px;}
+		.col-30{height:100px; width: 600px; margin: auto; margin-top: -100px;}
+.col-31{height:100px; width: 300px;margin: auto; margin-top: -100px;}
+.col-32{height: 150px; margin:auto; margin-left: 300px;}
+.col-33{height:100px; width: 200px; background-color: black; margin-top: 800px;}
+.col-34{height: 150px; width: 150px;padding-top: 50px; padding-left: 500px;}
+.col-35{height: 3300px;}
+.col-36{height: 400px; width: 600px; padding-top: 300px}
+.col-37{height: 300px; width: 800px; padding-top: 300px; display: inline-block;}
+.col-38{height: 400px; width: 800px;padding-top: 70px; display: inline-block;}
+.col-39{height: 400px; width: 800px; margin: auto; padding-left:400px; background-color: gray; margin-top: 250px;}
+.col-40{height:400px; width: 800px; margin: auto; padding-top: 70px;}
+.col-41{height: 700px; width:600px; margin-left: 550px; margin-top:-700px;}
+.col-43{height: 250px; width: 250px; background-color: blue; margin-left: 1000px; margin-top: -250px;}
+.col-44{height: 1000px; background-color: gray;}
+.col-45{height: 300px; width: 800px; margin:auto; padding-top: 450px;}
+.col-46{background-color: black; height: 1200px; margin: auto;}
+.col-47{background-color: red; width: 700px; height: 700px; margin:auto;}
+.col-48{width: 250px; height: 10px; padding-top: 100px;}
+.col-49{margin: auto; width: 700px; height: 60px;background-color: white; margin-left: 300px; padding-top: 15px;}
+
+.col-50{height: 400px; width:600px; margin-top:300px; margin-left: -200px;}
+.col-52{height: 250px; width: 250px; margin-top: -140px; margin-left: -300px;}
+.col-53{height: 300px; width: 600px; display: inline-block;margin-left: 500px; margin-top: -450px;}
+.col-54{height: 400px; width: 600px; margin-top: 20px; display: inline-block;}
+.col-55{height: 470px; width:600px; margin-left: 550px; margin-top:-600px;}
+.col-57{height: 250px; width: 250px; margin-left: 1000px; margin-top: -150px;}
+
+		.bg-section{background: url(header1.png);
+		background-size: 180% auto;}
+
+		.bg-section1{background: url(ska.png);
+		background-size: 170% auto;
+		background-position-x: -250px;
+		background-position-y: -500x;
+		}
+
+		.bg-section2{background: url(skas.png);
+		background-size: 100% 150%;
+		background-position-y: 600px;}
+
+		.bg-section3{background: url(blackpaper.png);
+			background-size: 100% auto;}
+
+		.bg-section4{background: url(photo1.png);
+			background-size: 170% auto;}
+
+		.bg-section5{background: url(header2.png);
+			background-size: 165% auto;}
+
+		.bg-section6{background: url(photo2.png);
+			background-size: 100% auto;
+			background-attachment: fixed;}
+
+		.bg-section7{background: url(youtube.png);
+			background-size: 100% auto;
+			overflow-clip-margin: content-box; overflow: clip;
+		}
+
+		.bg-section8{background: url(ticktock.png);
+			background-size: 100% auto;}
+
+		.bg-section9{background: url(vlog.png);
+			background-size: 100% auto;}
+
+.bg-section10{background: url(paper.png);
+			background-size: 100% auto;}
+
+		.bg-section11{background: url(mo.png);
+			background-size: 100% auto;}
+
+
+		.bg-section12{background: url(isu.png);
+			background-size: 250% auto;
+			background-position-x: -500px;
+			background-position-y: 0px;}
+
+		.bg-section13{background: url(tion.png);
+			background-size: 70% auto;
+			background-position-x: -800px;
+			}
+
+		.bg-section14{background: url(paparazzi1.gif);
+			background-size: 100% auto;
+			}
+
+		.bg-section15{background: url(ibopaper.png);
+			background-size: 110% auto;
+			background-position-x: -100px;}
+
+		.bg-section16{background: url(cam.png);
+			background-size: 110% auto;
+			background-position-y: -160px;}
+
+		.bg-section17{background: url(ticktock2.png);
+			background-size: 120% auto;
+			background-position-x: -90px;}
+
+		.bg-section18{background: url(vloger2.png);
+			background-size: 100% auto;
+			background-position-x: 0px;
+			background-position-y: 0px;}
+
+		.bg-section19{background: url(skaf.png);
+			background-size: 100% auto;
+			background-position-x: 0px;
+			background-position-y: 0px;}
+
+
+.a2:hover {
+    background: white;
+    color: black;
+    transition: all 0.2s;
+    font-weight: 700;
+    border: none;
+}
+
+.a2 {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+}
+
+@keyframes scale{0%{transform: scale(1.0);}
+50%{transform: scale(1.2);}
+0%{transform: scale(1.0);}}
+
+#scale{animation-name: scale; animation: float 2s ease-in-out; animation-iteration-count: infinite;}
+
+@keyframes float{
+0% {
+    transform: translatey(0px);
+}
+50% {
+    transform: translatey(-40px);
+}
+100% {
+    transform: translatey(0px);}}
+
+	#skaf{animation-name: float;
+ animation: float 2s ease-in-out; animation-iteration-count: infinite;}
+
+		#a{transration: all 0.3s linear;}
+		#a:hover{transform: scale(1.5);}
+
+		#b{animation-name: rightfade; animation-duration: 1.2s; position: absolute; transition: ease-in;}
+
+		#c{animation-name: rightfade1; animation-duration: 0.3s; position: absolute; transition: ease-in;}
+
+		@keyframes rightfade{
+			from{right: -100px; opacity: 0%}
+			to{right: 500px; opacity: 100%}
+			}
+
+
+		@keyframes rightfade1{
+			from{opacity: 0%}
+			to{opacity: 100%}
+			}
+
+@keyframes rightfade2{from{right: -100px; opacity: 0%}
+			to{ right: 300px; opacity: 100%}
+			}
+
+	#fadein1{animation-name: rightfade2; animation-duration: 2s; position: absolute; transition: ease-in; visibility: visible;}
+
+@keyframes rightfade2{from{right: -100px; opacity: 0%}
+			to{ right: 300px; opacity: 100%}
+			}
+
+	#fadein1{animation-name: rightfade2; animation-duration: 2s; position: absolute; transition: ease-in; visibility: visible;}
+
+
+		#d{animation-name: mo1;
+			animation: float 3s ease-in-out infinite; display: block;
+    margin: 0px auto; box-sizing: border-box;     overflow-clip-margin: content-box;
+    overflow: clip;}
+
+
+#e{animation-name: skake;
+animation: shake 0.5s;
+    animation-iteration-count: infinite;}
+@keyframes shake{0% {transform: translate(1px, 1px) rotate(0deg);}
+10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+}
+20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+}
+30% {
+    transform: translate(3px, 2px) rotate(0deg);
+}
+40% {
+    transform: translate(1px, -1px) rotate(1deg);
+}
+50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+}
+60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+}
+70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+}
+80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+}
+90% {
+    transform: translate(1px, 2px) rotate(0deg);
+}
+100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+}}
+
+#h{animation-name: skake;
+animation: shake 1.5s;
+    animation-iteration-count: infinite;}
+@keyframes shake{0% {transform: translate(1px, 1px) rotate(0deg);}
+10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+}
+20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+}
+30% {
+    transform: translate(3px, 2px) rotate(0deg);
+}
+40% {
+    transform: translate(1px, -1px) rotate(1deg);
+}
+50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+}
+60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+}
+70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+}
+80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+}
+90% {
+    transform: translate(1px, 2px) rotate(0deg);
+}
+100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+}}
+
+#z{animation-name: skake;
+animation: shake 2.5s;
+    animation-iteration-count: infinite;}
+@keyframes shake{0% {transform: translate(1px, 1px) rotate(0deg);}
+10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+}
+20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+}
+30% {
+    transform: translate(3px, 2px) rotate(0deg);
+}
+40% {
+    transform: translate(1px, -1px) rotate(1deg);
+}
+50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+}
+60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+}
+70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+}
+80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+}
+90% {
+    transform: translate(1px, 2px) rotate(0deg);
+}
+100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+}}
+
+#l{animation-name: skake;
+animation: shake 4s;
+    animation-iteration-count: infinite;}
+@keyframes shake{0% {transform: translate(1px, 1px) rotate(0deg);}
+10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+}
+20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+}
+30% {
+    transform: translate(3px, 2px) rotate(0deg);
+}
+40% {
+    transform: translate(1px, -1px) rotate(1deg);
+}
+50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+}
+60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+}
+70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+}
+80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+}
+90% {
+    transform: translate(1px, 2px) rotate(0deg);
+}
+100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+}}
+
+
+
+		h1{margin:auto; font-weight: 700; font-size: 4.3em; padding-top: 20px; width: 600px;}
+		h2{text-align: left; font-weight: 700; font-size: 2em; line-height: 1.9; display: inline-block;}
+		h3{text-align: left; font-weight: 600; font-size: 2.7em; margin:auto; line-height: 5;}
+		h4{text-align: left; font-weight: 700; font-size: 2.5em; line-height: 3; display: inline-block;}
+		h5{text-align: center; width: 330px; font-size: 2em;  line-height: 1.9; display: inline-block; font-weight: 700; margin:auto;}
+		p{text-align: left; font-weight: 400; font-size: 24px; line-height: 2.2; color:#707070;}
+
+		.menu{position: fixed; left:colc(50% - 500px;}
+
+
+	</style>
+
+</head>
+
+<body class="bg-ibo">
+	<nav>
+		<div>
+			<ul class="flex">
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#1">NEEDS</a></li>
+				<li><a href="#2">PRODUCT</a></li>
+				<li><a href="#3">SITUATION</a></li>
+				<li><a href="#4">BUY</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="wrap">
+	<section class="col-4 bg-ibo" id= "home">
+			<div class="col-1 bg-section">
+				<h1 style="text-align: center;"> 소확복 스카프</h1></div>
+		<div class="col-6">
+		<h2 style="color:#BABAB8;"> 초상권 침해엔<br><b>소</b>소하지만<br>
+		<b>확</b>실한</br>
+		<b>복</b>수를</h2></div>
+		</div>
+		<div class="col-3 bg-section2"></div>
+		<div class="col-5 bg-section3"></div>
+		<div class="col-2 bg-section1" id="b"></div>
+		</section>
+
+		<section class="col-7 bg-section4" id= "1" style="position:relative;">
+			<div class="wrap">
+			<div class="col-8">
+			<h3 style="color:white;"> 크리에이터 꿈나무들이 우후죽순 생겨난 2023년.</h3>
+			<h3 style="color:white;"> 방송인, 유튜버, 틱톡커들이 장소를 가리지 </h3>
+				<h3 style="color:white;"> 않고 찍어 올리는 영상에 일반인들의 초상권이 </h3> <h3 style="color:white;">침해당하고 있습니다.</h3>
+			</div></div></section>
+
+		<section>
+		<div class="wrap">
+		<div class="col-10">
+			<div class="col-11 bg-section5">
+				<h1 style="text-align:center;">제작 배경</h1></div>
+				<h3> 어째서 이런 일이 벌어지고 있는 걸까요?</h3>
+				<div class="col-16">
+				<p>상습적으로 초상권을 침해하는 사람들을 만나 그들의 생각을 들어봤습니다.</p>
+				<div class="col-12">
+					<h4 style="color:white; margin: 10px 80px;">Q. "왜 사람들의 초상권을 지켜주지 않는 거죠?"</h4>
+				<div class="col-17">
+				<h5 style="color:#707070;">유튜버</h5>
+				<h5 style="color:#707070;">브이로거</h5>
+				<h5 style="color:#707070;">틱톡커</h5></div>
+				<div class="col-14 flex">
+				<div class="col-13 bg-section7" id="a"></div><div class="col-13 bg-section9" id="a"></div><div class="col-13 bg-section8" id="a"></div></div>
+				<div class="col-14 flex">
+				<div class="col-13">	
+				<p style="text-align: center;"> "재밌는 장면을 만들려면<br> 돌발 인터뷰를 했을 때<br> 사람들이
+  				놀라는 표정이<br> 필요하니까요."</p></div>
+  				<div class="col-13">
+  				<p style="text-align:center;"> "일일이 협조 요청을<br> 하기엔
+   				제가 촬영하러<br> 가는 장소에
+  				사람이<br> 너무 많아서요."</p></div>
+  				<div class="col-13">
+  				<p style="text-align:center;"> "영상은 주로 저를 찍어서<br>
+ 				      지나가는 사람이 나와도<br> 알아 볼 수 없다고<br> 생각해요." </p></div>
+ 				</div>
+				</div> 
+				</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="col-9 bg-section6">
+				<div class="col-15">
+			<h3 style="color:white;">인터뷰 결과,</h3>
+			<h3 style="color:white;"> 
+			크리에이터들은 초상권을 지켜줄 생각이 없다는 게</h3>
+			<h3 style="color:white;">명백했습니다...</h3>
+			<h3 style="color:white;">
+			하지만 그들이 초상권을 지켜주지 않는다고 해서</h3>
+			<h3 style="color:white;">손 놓고 있을 수는 없죠.</h3>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<section>
+	<div class="col-19 bg-section15"id="2"></div>
+	<div class="wrap">
+			<div class="col-18 bg-ibo">
+			<div class="col-20 bg-section5">
+				<h1 style="text-align: center;">제품소개</h1>
+				<h3 style="padding-top: 100px; margin-bottom:-120px;font-weight: 700; font-size: 2.5em;"> 그래서 만들었습니다.</h3>
+			<h3 style="margin-bottom:-120px; font-weight: 700; font-size: 2.5em;">초상권 개념이 없는 크리에이터의 촬영에서</h3>
+			<h3 style="margin-bottom:-120px; font-weight: 700; font-size: 2.5em;">벗어나고 싶은 사람들을 위한 제품, '소확복 스카프'!</h3>
+			<p style="padding-top: 100px; margin-bottom:-20px;">스타일리쉬한 이 스카프는 맨눈으로 보면 멋있기만 한 스카프</p><p style=" margin-bottom:-20px;">
+			같지만 카메라로 촬영하는 순간 놀라운 모습으로 돌변하는</p>
+			<p style="margin-bottom:-20px;">스카프 입니다.</p>
+		</div>
+	</div>
+</div>
+			<div class="col-34 flex">
+			<p style="text-align: center;">맨눈으로 본<br> 소확복 스카프</p>
+			</div>
+			<div class="col-22 flex bg-section13"></div>
+			<div class="col-23 bg-section11" id="e"></div>
+			<div class="col-24 flex"></div>
+			<div class="col-25 bg-section12"></div>
+			<div class="col-19 bg-section15"></div>
+		</div></div></div></div></div>
+
+
+	<section>
+	<div class="col-35 bg-ibo" id="3">
+		<div class="wrap">
+	<div class="col-36 bg-ibo">
+	<h1>이런 상황에</h1> <h1>착용해보세요!</h1>
+	<div class="col-37">
+		<h2 style="margin-bottom: -70px; font-weight: 700;">유튜버가 인터뷰 해줄 수</h2>
+		<h2 style="margin-bottom: -70px;font-weight: 700;">있냐는</h2> <h2 style="margin-bottom: -70px; font-weight: 700;">질문도 없이
+		카메라부터 들이댈 때!</h2>
+		<div class="col-38">
+			<p style="margin-bottom:-20px;"> 소확복 스카프는 플래시 빛이나 주변 조명을</p>
+			<p style="margin-bottom:-20px;"> 반사해서 카메라 속 나의 모습은 까맣게,</p>
+			<p style="margin-bottom:-20px;"> 스카프는 번쩍번쩍 빛나보이게 만들어줍니다.</p></div>
+
+			<div class="col-41 bg-section16"id="l"></div>
+			<div class="col-42 bg-section15"></div>
+			<div class="col-43 bg-section7" id="scale"></div>
+	
+			<div class="col-50 bg-section17" id="h"></div>
+			<div class="col-51 bg-section15">
+			</div>
+			<div class="col-52 bg-section8" id="scale"></div>
+
+			<div class="col-53">
+				<h2 style="margin-bottom: -70px; font-weight: 700;">촬영 핫플레이스 한강에서</h2>
+		<h2 style="margin-bottom: -70px; font-weight: 700;">나도 모르게 틱톡커에게</h2> <h2 style="margin-bottom: -70px; font-weight: 700;">찍히고 있을 때!</h2>
+				<div class="col-54">
+					<p style="margin-bottom:-20px; margin-top: 80px;">낮에도 문제 없습니다. 소확복 스카프는</br> 태양 빛을 반사해서 나의 모습을 새카맣게 감춰줍니다.</p>
+				</div>
+			</div>
+
+			<div class="col-37"> 
+		<h2 style="margin-bottom: -70px; font-weight: 700;">직장 동료의 브이로그에<br> 내 모습이 나오고 있을 때!</h2>
+		<div class="col-38">
+			<p style="margin-top: 20px; margin-bottom:-20px;"> 실내에서도 문제 없습니다.</p>
+			<p style="margin-bottom:-20px;"> 소확복 스카프는 빛을 이용한 제품으로</p>
+			<p style="margin-bottom:-20px;"> 빛이 있는 장소라면 어디에서든</p>
+			<p style="margin-bottom:-20px;">초상권을 보호 할 수 있습니다.</p></div>
+
+			<div class="col-55 bg-section18" id="z"></div>
+			<div class="col-56 bg-section15"></div>
+			<div class="col-57 bg-section9" id="scale"></div>
+
+	
+</section>
+
+<section>
+	<div class="col-44 bg-section14">
+		<div class="col-45">
+	<h2 style="color:white; padding-bottom: -100px; text-align: center; padding-left: 200px;">소확복 스카프를 구매하고<br>
+	당신의 초상권을 지켜보세요</h2>
+</div>
+</section>
+
+<section>
+		<div class="col-46 flex">
+	<div class="wrap">
+<div class="col-47 bg-section19 flex" id="skaf">
+		</div>
+		<div class="col-48 flex"
+		id="4">
+		<p style="color:white;"><b>소</b>소하지만 <b>확</b>실한 <b>복</b>수</p></div>
+		<a class="col-49 a2">구매하기</a>
+	</div>
+</div>
+</section>
+</body>
+</html>
